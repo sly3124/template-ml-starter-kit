@@ -1,18 +1,19 @@
 # Template ML Starter Kit
 
-Projekt szkieletowy dla projektów Machine Learning.
+A starter template project for Machine Learning projects.
 
-## Struktura katalogów
+## Directory Structure
 
-- env/ - środowisko wirtualne (lokalne)
-- notebooks/ - notebooki Jupyter
-- data/ - dane treningowe i testowe
-- src/ - kod źródłowy projektu
-- tests/ - testy jednostkowe
+- `env/` - Local virtual environment
+- `notebooks/` - Jupyter notebooks
+- `data/` - Training and testing data
+- `src/` - Project source code
+- `tests/` - Unit tests
 
-## Uruchomienie
+## Setup and Usage
+
+Install dependencies and run tests using Makefile commands:
 
 ```bash
 make install
 make test
-```
